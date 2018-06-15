@@ -1,5 +1,5 @@
 # Injection techniques
-I created this repo during my journey in learning more about the various process injection techniques. I did reuse other’s code, but tried to improve on them or modify them to our need and better reading. The source should be indicated in the code.
+I created this repo during my journey in learning more about the various process injection techniques. I did reuse other’s code, but tried to improve on them or modify them to my need and better reading. The source should be indicated in the code.
 All of them were created with Visual Studio 2017.
 
 ## EarlyBird injection
