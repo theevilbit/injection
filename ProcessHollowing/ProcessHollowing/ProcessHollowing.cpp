@@ -73,7 +73,9 @@ int main(int argc, char* argv[])
 	PVOID lpFileBuffer;
 	lpFileBuffer = VirtualAlloc(NULL, dwFileSize, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
 
-	if (!ReadFile(hFile, lpFileBuffer, dwFileSize, NULL, NULL))
+	DWORD lpNumberOfBytesRead = 0;
+
+	if (!ReadFile(hFile, lpFileBuffer, dwFileSize, &lpNumberOfBytesRead, NULL))
 	{
 		TerminateProcess(pProcessInfo->hProcess, 1);
 		ErrorExit(TEXT("ReadFile"));
