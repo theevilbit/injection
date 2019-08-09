@@ -74,3 +74,23 @@ This one is described here:
 I decided to release this as malware uses this technique, and we need defense people to understand how this work:
 [RIG Exploit Kit Delivering Monero Miner Via PROPagate Injection Technique « RIG Exploit Kit Delivering Monero Miner Via PROPagate Injection Technique | FireEye Inc](https://www.fireeye.com/blog/threat-research/2018/06/rig-ek-delivering-monero-miner-via-propagate-injection-technique.html)
 The x64 shell code will crash explorer.exe, but that will restart. I need to rewrite this code to work more generically and without a crash, but so far this is how it is. This POC is very dirty, there was a nicer one on GitHub but it’s no longer available.
+
+## 7 Window message based Injection
+The following 7 POCs are based on the following posts. In the light of some recent research and to bring awareness I decided to release them.
+[Listplanting – yet another code injection trick](http://www.hexacorn.com/blog/2019/04/25/listplanting-yet-another-code-injection-trick/)
+
+[Treepoline – new code injection technique](http://www.hexacorn.com/blog/2019/04/24/treepoline-new-code-injection-technique/)
+
+[3 (4) new code injection tricks](http://www.hexacorn.com/blog/2019/04/24/3-new-code-injection-tricks/)
+
+[WordWarper – (not a ) new code injection trick](http://www.hexacorn.com/blog/2019/04/23/wordwarper-new-code-injection-trick/)
+
+[Windows Process Injection: WordWarping, Hyphentension, AutoCourgette, Streamception, Oleum, ListPlanting, Treepoline](https://modexp.wordpress.com/2019/04/25/seven-window-injection-methods/)
+
+* AutoCorrectProc_Injection
+* EditStreamCallback_injection
+* EditWordBreakProc_Injection
+* HyphenateProc_Injection
+* IRichEditOleCallback_Injection
+* ListViewCompare_Injection
+* TreeViewCompare_Injection
