@@ -11,8 +11,8 @@
 #include <stdio.h>
 #include <Windows.h>
 
-unsigned char scx64[] = ""
-unsigned char scx86[] = ""
+unsigned char scx64[] = "";
+unsigned char scx86[] = "";
 
 int wmain(int argc, wchar_t**argv) //to read in arguments as unicode
 {
