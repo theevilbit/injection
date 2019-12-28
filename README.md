@@ -3,7 +3,7 @@ I created this repo during my journey in learning more about the various process
 All of them were created with Visual Studio 2017.
 
 ## Simple Thread Injection
-Probably the simples injection, it simply allocates memory in the new process, writes to it, and creates a remote thread. You can do that via 3 different APIs.
+Probably the simplest injection, it simply allocates memory in the new process, writes to it, and creates a remote thread. You can do that via 3 different APIs.
 Use
 Run: SimpleThreadInection.exe [process name] [option number]
 option 1 - CreateRemoteThread
